@@ -87,6 +87,61 @@ main h1{
     margin-top: 200px;
 }
 
+.info-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 80px;
+    width:100%;
+}
+
+.info-box {
+    width: 300px; 
+    background-color: var(--box-bg-color);
+    color:var(--main-color);
+     padding: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    height:150px;
+}
+
+.info-box h2 {
+    font-size: 24px;
+}
+
+.info-box p {
+    font-size: 18px;
+    color: rgb(172, 163, 163); 
+    
+}
+.info-box a {
+    display: block; 
+    margin-top: 10px; 
+}
+
+.email-link {
+    text-decoration: none; 
+    color: rgb(172, 163, 163); 
+    font-weight: bold; 
+}
+
+
+.email-link:hover {
+    text-decoration: underline; 
+}
+
+.topligan-link {
+    text-decoration: none; 
+    color: rgb(172, 163, 163); 
+    font-weight: bold; 
+}
+
+
+.topligan-link:hover {
+    text-decoration: underline; 
+}
+
+
 
 
 
