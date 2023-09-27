@@ -15,6 +15,7 @@ header {
     left: 0;
     background-color: var(--box-bg-color);
     color: var(--main-color);
+    font-family: var(--text-style);
     height: 80px;
 }
 
@@ -28,6 +29,7 @@ header {
     list-style: none;
     width: 100%;
     justify-content: center;
+
 }
 
 .list ul li a {
@@ -35,12 +37,23 @@ header {
     color: var(--main-color);
     margin-left: 50px;
     font-size: 18px;
+    font-weight: bold;
+
+
 }
+
+.list ul li a:hover {
+    border-bottom: 2px solid lightgray;
+    transition: 0.5s ease;
+}
+
+
 
 img {
     height: 50px;
     width: 50px;
     border-radius: 20px;
+
 }
 
 
@@ -57,5 +70,9 @@ footer {
 
 footer p {
     color: var(--main-color);
-    font-size: 14px;
+    font-size: 15px;
 }
+
+
+}
+
