@@ -1,0 +1,11 @@
+.background-image
+{
+background-image: url("../Pictures/skyscraper.jpg");
+background-position: center;
+background-attachment: fixed;
+width: 1440px;
+height: 750px;
+
+
+
+}
