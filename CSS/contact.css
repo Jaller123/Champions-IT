@@ -109,6 +109,8 @@ main h1{
 
 .info-box h2 {
     font-size: 24px;
+    text-decoration: underline;
+    
 }
 
 .info-box p {
@@ -119,6 +121,9 @@ main h1{
 .info-box a {
     display: block; 
     margin-top: 10px; 
+    text-decoration: none;
+    color:rgb(172, 163, 163);
+    font-weight: bold;
 }
 
 .email-link {
