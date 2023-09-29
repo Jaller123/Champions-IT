@@ -1,9 +1,12 @@
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh; 
     display: flex;
     flex-direction: column; 
+    overflow-x: hidden;
+
 }
 
 header {
@@ -12,7 +15,7 @@ header {
     gap: 0 6px;
     height: 35px;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -60,12 +63,11 @@ img {
 }
 
 main {
-    flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--main-bg-color);
-    margin-top: 140px;
+    margin-top: 120px;
 
 }
 main h1{
@@ -92,6 +94,7 @@ main h1{
     flex-wrap: wrap;
     padding: 80px;
     width:100%;
+    margin-bottom:100px;
 }
 
 .info-box {
@@ -101,7 +104,7 @@ main h1{
     padding: 20px;
     text-align: center;
     justify-content: space-evenly;
-    height:150px;
+    height:140px;
 }
 
 .info-box h2 {
@@ -144,52 +147,46 @@ main h1{
 footer {
     height: 120px;
     width: 100vw; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--box-bg-color);
+    position: fixed;
+    bottom: 0;
+    
 }
 
 footer p {
     color: var(--main-color);
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    font-size: 50px;
+    width: 35px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 15px 10px;
 
-    
   }
+
+  
+  [class*="fa"]{
+    background-color: black;
+    color: white;
+  }
+
+
   .fa:hover {
     opacity: 0.7;
+
 }
 
-.fa-facebook {
-    background: black;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: black;
-    color: white;
-  }
-  .fa-linkedin {
-    background: black;
-    color: white;
-  }
-  
-  
-  .fa-instagram {
-    background: black;
-    color: white;
-  }
 
+
+  
 
 
 
