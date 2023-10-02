@@ -146,8 +146,8 @@ main h1{
 }
 
 
-.topligan-link:hover {
-    text-decoration: underline; 
+.info-box a:hover {
+    text-decoration: underline;
 }
 
 
@@ -190,6 +190,7 @@ footer p {
     opacity: 0.7;
 
 }
+
 
 
 
