@@ -60,11 +60,12 @@ img {
 
 footer {
     height: 120px;
-    width: 100vw; 
+    width: 100vw;
     background-color: var(--box-bg-color);
-    position: fixed;
+    position: relative;
     bottom: 0;
-    
+
+
 }
 
 footer p {
