@@ -43,9 +43,15 @@ h2 {
     border: 1px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
+
+
+
+}
+
+h3 {
     background-color: var(--main-bg-color);
-
-
+    height: 30px;
+    width: 100%;
 }
 
 .box1,
