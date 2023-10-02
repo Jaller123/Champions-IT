@@ -55,11 +55,13 @@ header {
 
 
 
-img {
-    height: 50px;
-    width: 50px;
-    border-radius: 20px;
-
+img 
+{
+   
+        height: 60px;
+        width: 100%;
+        border-radius: 20px;
+    
 }
 
 main {
