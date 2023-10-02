@@ -60,17 +60,18 @@ img {
 
 footer {
     height: 120px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 0;
+    width: 100vw; 
     background-color: var(--box-bg-color);
+    position: fixed;
+    bottom: 0;
+    
 }
 
 footer p {
     color: var(--main-color);
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
