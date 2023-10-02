@@ -17,6 +17,7 @@
     top: 100px;
     left: 70px;
     opacity: 0.9;
+    font-family: var(--text-style);
 
 
 }
@@ -32,9 +33,41 @@ h2 {
 
 }
 
+
+.box1,
+.box2,
+.box3 {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--main-bg-color);
+
+
+}
+
+.box1,
+.box2,
+.box3,
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: var(--text-style);
+}
+
+
+.boxar {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+
 img {
     height: 60px;
     width: 100%;
     border-radius: 20px;
+
 
 }
