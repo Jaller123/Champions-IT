@@ -36,7 +36,7 @@ h2 {
 .box2,
 .box3 {
     display: flex;
-    height: 200px;
+    min-height: 200px;
     width: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
