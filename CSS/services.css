@@ -108,3 +108,35 @@ label {
 .content {
     display: none;
 }
+
+#ch2 {
+    display: none;
+}
+
+#ch2:checked~.content2 {
+    display: block;
+}
+
+#ch2:checked~label {
+    display: none;
+}
+
+.content2 {
+    display: none;
+}
+
+#ch3 {
+    display: none;
+}
+
+#ch3:checked~.content3 {
+    display: block;
+}
+
+#ch3:checked~label {
+    display: none;
+}
+
+.content3 {
+    display: none;
+}
