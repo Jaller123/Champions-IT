@@ -76,6 +76,12 @@ main h1{
     font-style: var(--text-style);
 }
 
+.logo-wrapper{
+    width: 550px;
+    display: block;
+    margin: 10px auto;    
+}
+
 .hero {
     display: var(--display-text);
     flex-direction: column;
@@ -86,7 +92,7 @@ main h1{
 .hero img {
     width: 50%;
     height: auto;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 .info-boxes {
