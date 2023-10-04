@@ -35,7 +35,7 @@ h2 {
 .box1,
 .box2,
 .box3 {
-    display: flex;
+    display: var(--display-text);
     min-height: 200px;
     width: 400px;
     margin-top: 20px;
@@ -61,7 +61,7 @@ h3 {
 
 
 .boxar {
-    display: flex;
+    display: var(--display-text);
     justify-content: center;
     gap: 120px;
     line-height: 1.5;

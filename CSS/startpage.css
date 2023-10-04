@@ -11,7 +11,7 @@ height: 750px;
 }
 .Box-Description
 {
-  display: flex;
+  display: var(--display-text);
   background-color: #007bbd;
   position: relative;
   top: 300px;
