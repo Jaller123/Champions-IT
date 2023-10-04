@@ -8,7 +8,7 @@
 .services {
     height: 200px;
     width: 400px;
-    border: 1px solid black;
+
     margin-bottom: 200px;
     background: linear-gradient(239deg, #007bbd, #003f61);
     position: relative;
