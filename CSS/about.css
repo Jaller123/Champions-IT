@@ -1,0 +1,30 @@
+.bg-img {
+    background-image: url("file:///C:/Users/Tomas/Downloads/Champions-IT/Pictures/istockphoto-1346944001-612x612.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+ 
+}
+
+h2 {
+    font-family: var(--text-style);
+    color: var(--main-color);
+    font-size: 50px;
+    background-color: var(--main-bg-color);
+}
+
+p { 
+    font-family: var(--text-style);
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1 {
+    border: 1px black;
+}
