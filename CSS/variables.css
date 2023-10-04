@@ -3,10 +3,15 @@
     --main-bg-color: #2a6592;
     --box-bg-color: #2a6592;
     --main-color: white;
+
     /* Textens färg */
     --footer-bg-color: #ececec;
 
+     /* Textens färg */
     --text-style: arial narrow;
+
+    /*Textens display*/
+    --display-text: flex; 
 
 
 }

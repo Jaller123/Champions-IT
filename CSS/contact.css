@@ -3,14 +3,14 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh; 
-    display: flex;
+    display: var(--display-text);
     flex-direction: column; 
     overflow-x: hidden;
 
 }
 
 header {
-    display: flex;
+    display: var(--display-text);
     align-items: center;
     gap: 0 6px;
     height: 35px;
@@ -30,7 +30,7 @@ header {
 }
 
 .list ul {
-    display: flex;
+    display: var(--display-text);
     gap: 20px;
     list-style: none;
     width: 100%;
@@ -65,7 +65,7 @@ img
 }
 
 main {
-    display: flex;
+    display: var(--display-text);
     justify-content: center;
     align-items: center;
     background-color: var(--main-bg-color);
@@ -77,7 +77,7 @@ main h1{
 }
 
 .hero {
-    display: flex;
+    display: var(--display-text);
     flex-direction: column;
     align-items: center;
      
@@ -90,7 +90,7 @@ main h1{
 }
 
 .info-boxes {
-    display: flex;
+    display: var(--display-text);
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 80px;
@@ -162,7 +162,7 @@ footer {
 footer p {
     color: var(--main-color);
     font-size: 15px;
-    display: flex;
+    display: var(--display-text);
     justify-content: center;
     align-items: center;
 
