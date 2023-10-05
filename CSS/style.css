@@ -62,11 +62,11 @@ img {
 
 footer {
     height: 140px;
-    width: 100vw; 
+    width: 100vw;
     background-color: var(--box-bg-color);
     position: relative;
     bottom: 0;
-    
+
 }
 
 footer p {
@@ -87,16 +87,17 @@ footer p {
     text-decoration: none;
     margin: 15px 10px;
 
-  }
+}
 
-  
-  [class*="fa"]{
+
+[class*="fa"] {
     background-color: black;
     color: white;
-  }
+    border-radius: 50px;
+}
 
 
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
 
 }
