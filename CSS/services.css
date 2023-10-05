@@ -8,7 +8,7 @@
 .services {
     height: 200px;
     width: 400px;
-    border: 1px solid black;
+    border-radius: 20px;
     margin-bottom: 200px;
     background: linear-gradient(239deg, #007bbd, #003f61);
     position: relative;
@@ -85,7 +85,7 @@ label {
     color: black;
     display: inline-block;
     cursor: pointer;
-    background-color: lightblue;
+    background-color: lightgrey;
     padding: 3px 10px;
     border-radius: 10px;
     margin-top: 10px;
