@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    display: flex;
+    display: var(--display-text);
     align-items: center;
     gap: 0 6px;
     height: 35px;
@@ -27,7 +27,7 @@ header {
 }
 
 .list ul {
-    display: flex;
+    display: var(--display-text);
     gap: 20px;
     list-style: none;
     width: 100%;
@@ -61,20 +61,44 @@ img {
 
 
 footer {
-    height: 120px;
+    height: 140px;
     width: 100vw;
     background-color: var(--box-bg-color);
     position: relative;
     bottom: 0;
-
 
 }
 
 footer p {
     color: var(--main-color);
     font-size: 15px;
-    display: flex;
+    display: var(--display-text);
     justify-content: center;
     align-items: center;
     margin: 0;
+
 }
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 10px;
+
+}
+
+
+[class*="fa"] {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+
