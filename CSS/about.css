@@ -1,22 +1,26 @@
 .bg-img {
     background-image: url("file:///C:/Users/Tomas/Downloads/Champions-IT/Pictures/istockphoto-1346944001-612x612.jpg");
-    height: 300px;
+    height: 270px;
     width: 100%;
-    background-size: auto;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
+    display: block;
  
 }
 
 h2 {
     font-family: var(--text-style);
     color: var(--main-color);
-    font-size: 50px;
+    font-size: 70px;
     background-color: var(--main-bg-color);
+    border: 1px solid black;
+    text-align: center;
 }
 
 p { 
     font-family: var(--text-style);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .box {
@@ -27,4 +31,15 @@ p {
 
 .box1 {
     border: 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
+
+.about {
+    height: 350px;
+    width: 400px;
+    position: absolute;
+
+}
+
